@@ -1,0 +1,26 @@
+.chat > .chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px 10px;
+  background-color: aliceblue;
+  position: sticky;
+  width: 100%;
+}
+
+.header-title {
+  font-size: 25px;
+  padding: 15px;
+  color: gold;
+}
+.chat .close {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}

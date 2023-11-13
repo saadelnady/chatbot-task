@@ -1,0 +1,23 @@
+.lang-container {
+  width: 300px;
+  margin: 10px auto;
+}
+.lang-container button {
+  width: 45%;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+.lang-container button:first-of-type {
+  margin-right: 10px;
+  background-color: green;
+}
